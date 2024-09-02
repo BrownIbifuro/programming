@@ -73,6 +73,18 @@
     text-decoration: none;
 }
 
+
+.banner {
+    background-color: #00ff00;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    color: #000;
+    font-weight: bold;
+}
+
 .trending-sections{
     width: 100%;
     border-bottom-style: solid;
@@ -97,49 +109,6 @@
 }
 h3{
     text-align: center;
-}
-
-
-.headline{
-    display: inline-block;   
-}
-
-.headline-container {
-    position: relative; /* Makes this container the reference point for the absolute positioning */
-    width: 100%;
-}
-
-/*.headline-image{
-    height: 400px;
-    width: 100px;
-    overflow-y: hidden;
-    object-fit: contain;
-    object-position: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}*/
-
-.headline-image {
-    width: 100%;
-    height: 400px; /* Let the height adjust automatically */
-    object-fit: cover;
-    overflow: hidden;
-    object-position: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.headline-text {
-    position: absolute;
-    bottom: 20px; /* Positions the text at the bottom of the image */
-    left: -4%;
-    width: 100%;
-    text-align: justify;
-    color: white; /* Text color */
-    padding: 50px; /* Adds some space around the text */
-    text-align: center; /* Centers the text horizontally */
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the text bold for better visibility */
 }
 
 
