@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="Logo" class="logo-img">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Elements</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <span>+123 (456) 7890</span>
+            </div>
+        </div>
+
+        <div class="search-bar">
+             <div class="logo">
+                <img src="./assets/Logo.png" alt="Logo" class="logo-img">
+            </div>
+            <input type="text" placeholder="Search For Items...">
+            <select>
+                <option>All Categories</option>
+            </select>
+            <button type="submit">Search</button>
+            <div class="user-links">
+                <a href="#">Account</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="red-banner">
+        <span>Shop</span>
+        <div class="breadcrumb">
+            <a href="#">Home</a> - <span>Shop</span>
+        </div>
+    </div>
+
+    <!--main code-->
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Product Category</h2>
+            <ul class="category-list">
+                <li><input type="checkbox" id="category1"> Juice & Drinks <span>[20]</span></li>
+                <li><input type="checkbox" id="category2"> Dairy & Milk <span>[54]</span></li>
+                <li><input type="checkbox" id="category3"> Snack & Spice <span>[64]</span></li>
+            </ul>
+
+            <div class="filter-by-price">
+                <h2>Filter By Price</h2>
+                <input type="range" min="20" max="280" value="150" class="slider" id="priceRange">
+                <p>Price: <span id="priceValue">$20 - $280</span></p>
+                <button class="filter-btn">Filter</button>
+            </div>
+
+            <div class="product-color">
+                <h2>Product Category</h2>
+                <label><input type="checkbox"> Blue</label><br>
+                <label><input type="checkbox"> Yellow</label><br>
+                <label><input type="checkbox"> Red</label><br>
+                <label><input type="checkbox"> Green</label>
+            </div>
+
+            <div class="weight-filter">
+                <h2>Weight</h2>
+                <label><input type="checkbox"  name="weight"> 2kg Pack</label><br>
+                <label><input type="checkbox"  name="weight"> 20kg Pack</label><br>
+                <label><input type="checkbox"  name="weight"> 30kg Pack</label>
+            </div>
+
+            <div class="product-tags">
+                <h2>Product Tags</h2>
+                <button class="tag">Vegetables</button> <button class="tag">Juice</button><br>
+                <button class="tag">Food</button> <button class="tag">Dry Fruits</button><br>
+                <button class="tag">Vegetables</button> <button class="tag">juice</button><br>
+            </div>
+        </aside>
+
+        <div>
+             <!--Big image session-->
+            <section class="product-details">
+                <div class="product-image">
+                    <img src="./assets/hazelnut.png" alt="Hazel Nut Pack">
+                    <div class="small-images">
+                        <img src="./assets/Simg1.png" alt="Product 1" class="small-image">
+                        <img src="./assets/Simg2.png" alt="Product 2" class="small-image">
+                        <img src="./assets/Simg3.png" alt="Product 3" class="small-image">
+                        <img src="./assets/Simg4.png" alt="Product 4" class="small-image">
+                        <img src="./assets/Simg5.png" alt="Product 4" class="small-image">
+                      </div>
+                </div>
+                <div class="product-info">
+                    <h4>Seeds Of Change Organic Quinoa, Brown</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. In iaculis mi urna at</p>
+                    <p class="rating">★★★★★ (75 Review)</p>
+                    <ul class="product-specs">
+                        <li><strong>Brand:</strong> ESTA BETTER CO</li>
+                        <li><strong>Flavor:</strong> Super Saver Pack</li>
+                        <li><strong>Diet Type:</strong> Vegetarian</li>
+                        <li><strong>Weight:</strong> 200 grams</li>
+                        <li><strong>Specialty:</strong> Gluten Free, Sugar Free</li>
+                        <li><strong>Allergy Info:</strong> Egg Free, Allergen-Free</li>
+                    </ul>
+
+                    <div class="price-section">
+                        <p class="price">$120.25 <span class="old-price">$193.25</span></p>
+                        <div class="size-weight">
+                            <label for="size-weight">Size/Weight:</label>
+                            <select id="size-weight">
+                                <button class="tag">Vegetables</button> <button class="tag">Juice</button><br>
+                                <option>50kg</option>
+                                <option>100kg</option>
+                                <option>200kg</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </section>
+
+
+            <div class="product-description">
+                <nav class="product-nav">
+                    <a href="#">Description</a>
+                    <a href="#">Information</a>
+                    <a href="#">Review</a>
+                </nav>
+            
+                <div class="description-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Error in vero sapiente odio...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod...</p>
+                    <h3>Packaging & Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Error in vero sapiente odio...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod...</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    
+    <!--Popular Product-->
+    <div class="popular-products-section">
+        <!-- Section Title -->
+        <div class="section-header">
+            <h2>Popular Products</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et vivamus malesuada accumsan lacus vel facilisis.</p>
+        </div>
+    
+        <!-- Products Grid -->
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="./assets/hazelnut.png" alt="Hazelnut Mix">
+                <div class="product-info">
+                    <span class="product-category">Snacks</span>
+                    <span class="product-rating">(4.5)</span>
+                    <h3>Best snakes with hazel nut mix pack 200gm</h3>
+                    <div class="product-price">
+                        <span class="price">$120.25</span>
+                        <span class="old-price">$135.25</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="./assets/Sweet crunchy nut mix2.png" alt="Crunchy Nut Mix">
+                <div class="product-info">
+                    <span class="product-category">Snacks</span>
+                    <span class="product-rating">(5.0)</span>
+                    <h3>Sweet snakes crunchy nut mix 250gm pack</h3>
+                    <div class="product-price">
+                        <span class="price">$100.00</span>
+                        <span class="old-price">$110.00</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="./assets/lemon fruit.png" alt="Lemon Mix">
+                <div class="product-info">
+                    <span class="product-category">Snacks</span>
+                    <span class="product-rating">(4.5)</span>
+                    <h3>Best snakes with hazel nut mix pack 200gm</h3>
+                    <div class="product-price">
+                        <span class="price">$120.25</span>
+                        <span class="old-price">$135.25</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="./assets/apple drink.png" alt="Green Juice">
+                <div class="product-info">
+                    <span class="product-category">Snacks</span>
+                    <span class="product-rating">(5.0)</span>
+                    <h3>Sweet snakes crunchy nut mix 250gm pack</h3>
+                    <div class="product-price">
+                        <span class="price">$100.00</span>
+                        <span class="old-price">$110.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+     <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <!-- Company Information -->
+            <div class="footer-column">
+                <img src="./assets/Logo.png" alt="FoodTrove" class="footer-logo">
+                <p class="footer-description">FoodTrove is the biggest market of grocery products. Get your daily needs from our store.</p>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        51 Green St.Huntington ontario beach, NY 11746 KY 4783, USA.
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        example@email.com
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        +91 123 4567890
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Company Links -->
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Support Center</a></li>
+                </ul>
+            </div>
+
+            <!-- Category Links -->
+            <div class="footer-column">
+                <h4>Category</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Dairy & Bakery</a></li>
+                    <li><a href="#">Fruits & Vegetables</a></li>
+                    <li><a href="#">Snack & Spice</a></li>
+                    <li><a href="#">Juice & Drinks</a></li>
+                    <li><a href="#">Chicken & Meat</a></li>
+                    <li><a href="#">Fast Food</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="footer-column">
+                <h4>Subscribe Our Newsletter</h4>
+                <div class="newsletter">
+                    <input type="text" placeholder="Search here..." class="newsletter-input">
+                    <button type="submit" class="newsletter-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-gallery">
+                    <img src="./assets/img1.png" alt="Gallery Image">
+                    <img src="./assets/img2.png" alt="Gallery Image">
+                    <img src="./assets/img3.png" alt="Gallery Image">
+                    <img src="./assets/img4.png" alt="Gallery Image">
+                    <img src="./assets/img5.png" alt="Gallery Image">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>© 2024 <span class="highlight">FoodTrove</span>. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

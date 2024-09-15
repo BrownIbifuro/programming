@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+ .header1 {
+    padding: 15px;
+    font-size: 16px;
+    position: relative;    
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.1); 
+}
+.nav1 {
+    text-align: center;         
+    margin: 0;                  
+}
+.nav1 a {
+    margin: 0 15px;            
+    text-decoration: none;
+    color: #333;
+}
+.phone {
+    position: absolute;       
+    right: 20px;               
+    top: 50%;                  
+}
+.phone a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar select {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main1 {
+    background-color: #f2d3bf;
+    white-space: nowrap;    /* Prevent the text from wrapping */
+    padding: 20px;
+}
+.writeup1, .img1 {
+    display: inline-block;  /* Make text and image inline blocks */
+    vertical-align: top;    /* Align them to the top */
+    width: 48%;             /* Ensure the blocks fit side by side */
+}
+.writeup1 {
+    margin-right: 2%;       /* Add some space between text and image */
+}
+.button{
+    display: inline-block;         /* Makes the text behave like a button */
+    padding: 5px 10px;            /* Controls the size of the button */
+    background-color: red;         /* The background color of the button */
+    color: white;                  /* Text color */
+    font-size: 18px;               /* Make it slightly bigger */
+    border-radius: 8px;            /* Slightly round corners */
+    text-decoration: none;         /* Remove the underline from the text */
+    text-align: center;            /* Centers the text inside */
+}
